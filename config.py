@@ -77,7 +77,8 @@ TICKER_META = {
     "SPX": {"underlying_type": "index",  "strike_step": 5.0, "chain_symbol": "SPXW",
             "min_pin_gex_threshold": 1_000_000_000,
             "check_interval_minutes": 15,
-            "strike_window": 40,
+            "strike_window": 12,
+            "take_profit_pct": 1.00, "stop_loss_pct": 0.50,
             "observation_start": time(0, 0), "observation_end": time(23, 59, 59)},
 }
 
